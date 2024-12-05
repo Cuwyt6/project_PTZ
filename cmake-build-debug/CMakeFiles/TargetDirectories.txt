@@ -1,0 +1,3 @@
+D:/STM32Cube/my_projects/PTZ_/cmake-build-debug/CMakeFiles/PTZ_.elf.dir
+D:/STM32Cube/my_projects/PTZ_/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STM32Cube/my_projects/PTZ_/cmake-build-debug/CMakeFiles/rebuild_cache.dir

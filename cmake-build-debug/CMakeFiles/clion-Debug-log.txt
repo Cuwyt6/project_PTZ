@@ -1,0 +1,5 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=D:/STM32Cube/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe -G "MinGW Makefiles" -S D:\STM32Cube\my_projects\PTZ_ -B D:\STM32Cube\my_projects\PTZ_\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/STM32Cube/my_projects/PTZ_/cmake-build-debug
