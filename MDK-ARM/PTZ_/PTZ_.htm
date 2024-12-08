@@ -1206,7 +1206,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;limit(float, float)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor::CalculatePID()
+<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor::Calc()
 </UL>
 
 <P><STRONG><a name="[c5]"></a>PID::PID(float, float, float, float, float)</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, pid.o(.text._ZN3PIDC2Efffff))
@@ -1215,8 +1215,8 @@ Global Symbols
 
 <P><STRONG><a name="[10a]"></a>PID::PID__sub_object(float, float, float, float, float)</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, pid.o(.text._ZN3PIDC2Efffff), UNUSED)
 
-<P><STRONG><a name="[ca]"></a>motor::CalculatePID()</STRONG> (Thumb, 308 bytes, Stack size 8 bytes, motor.o(.text._ZN5motor12CalculatePIDEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = motor::CalculatePID() &rArr; PID::calc(float, float)
+<P><STRONG><a name="[ca]"></a>motor::Calc()</STRONG> (Thumb, 308 bytes, Stack size 8 bytes, motor.o(.text._ZN5motor12CalculatePIDEv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = motor::Calc() &rArr; PID::calc(float, float)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID::calc(float, float)
 </UL>
@@ -1226,7 +1226,7 @@ Global Symbols
 <P><STRONG><a name="[8f]"></a>motor::CanRxMsgCallback(unsigned char const*)</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, motor.o(.text._ZN5motor16CanRxMsgCallbackEPKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = motor::CanRxMsgCallback(unsigned char const*) &rArr; __aeabi_dmul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor::CalculatePID()
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor::Calc()
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
 <LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv

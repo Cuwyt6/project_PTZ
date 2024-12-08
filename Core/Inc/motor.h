@@ -83,7 +83,7 @@ public:
     void CanRxMsgCallback(const uint8_t rx_data[8]); //接收到一个新的 CAN 消息时触发的回调函数
     void Stop(); //急停
     void RCControl(float channel_data); //
-    void CalculatePID();
+    void Calc();
     void Handle(); //发给电调的信息处理
 
     float (*FeedForward)(float angle_imu_);

@@ -24,9 +24,11 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
+#include "spi.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "RC.h"
+#include "IMU.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,7 +102,9 @@ int main(void)
   MX_USART3_UART_Init();
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
-  __HAL_UART_ENABLE_IT(&huart3,UART_IT_IDLE);
+    BMI088_Init();
+
+    __HAL_UART_ENABLE_IT(&huart3,UART_IT_IDLE);
   HAL_TIM_Base_Start_IT(&htim6);
 
   CAN_FilterTypeDef FilterConfig = {0, 0, 0, 0, CAN_FilterFIFO0, 14, CAN_FILTERMODE_IDMASK, CAN_FILTERSCALE_32BIT, ENABLE, 0};

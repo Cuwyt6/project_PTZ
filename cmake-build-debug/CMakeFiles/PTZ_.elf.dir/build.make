@@ -68,10 +68,24 @@ include CMakeFiles/PTZ_.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PTZ_.elf.dir/flags.make
 
+CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
+CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/IMU.cpp
+CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\IMU.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\IMU.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\IMU.cpp
+
+CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.i"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\PTZ_\Core\Src\IMU.cpp > CMakeFiles\PTZ_.elf.dir\Core\Src\IMU.cpp.i
+
+CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.s"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\PTZ_\Core\Src\IMU.cpp -o CMakeFiles\PTZ_.elf.dir\Core\Src\IMU.cpp.s
+
 CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/PID.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\PID.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\PID.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\PID.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/RC.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\RC.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\RC.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\RC.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/can.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\can.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\can.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/controller.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\controller.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\controller.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\controller.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/controller.cpp.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/dma.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\dma.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\dma.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/gpio.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\gpio.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\gpio.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/iwdg.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\iwdg.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\iwdg.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\iwdg.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/main.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\main.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\main.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/main.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\main.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\main.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\main.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/motor.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\motor.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\motor.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\motor.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.i: cmake_force
@@ -208,10 +222,24 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.s"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\PTZ_\Core\Src\motor.cpp -o CMakeFiles\PTZ_.elf.dir\Core\Src\motor.cpp.s
 
+CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
+CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/spi.c
+CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\spi.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\spi.c
+
+CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.i"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\PTZ_\Core\Src\spi.c > CMakeFiles\PTZ_.elf.dir\Core\Src\spi.c.i
+
+CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.s"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\PTZ_\Core\Src\spi.c -o CMakeFiles\PTZ_.elf.dir\Core\Src\spi.c.s
+
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -225,7 +253,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/stm32f4xx_it.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -239,7 +267,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/syscalls.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\syscalls.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -253,7 +281,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/sysmem.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\sysmem.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -267,7 +295,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/system_stm32f4xx.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -281,7 +309,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/tim.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\tim.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\tim.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -295,7 +323,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/tool.cpp
 CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\tool.cpp.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\tool.cpp.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\tool.cpp
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.i: cmake_force
@@ -309,7 +337,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/tool.cpp.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj: D:/STM32Cube/my_projects/PTZ_/Core/Src/usart.c
 CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\PTZ_.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Core\Src\usart.c.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Src\usart.c
 
 CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: D:/STM32Cube/my_projects/PTZ_/Core/Startup/startup_stm32f407ighx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\PTZ_.elf.dir\Core\Startup\startup_stm32f407ighx.s.obj -c D:\STM32Cube\my_projects\PTZ_\Core\Startup\startup_stm32f407ighx.s
 
 CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/PTZ_.elf.dir/Core/Startup/startup_stm32f407ighx.s.s: cmake_force
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmak
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ram
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s:
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -543,10 +571,24 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
+CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
+CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+
+CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+
+CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -560,7 +602,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -574,7 +616,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/PTZ_.elf.dir/flags.make
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/STM32Cube/my_projects/PTZ_/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/PTZ_.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\PTZ_.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\STM32Cube\my_projects\PTZ_\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -587,6 +629,7 @@ CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 
 # Object files for target PTZ_.elf
 PTZ__elf_OBJECTS = \
+"CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj" \
@@ -597,6 +640,7 @@ PTZ__elf_OBJECTS = \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj" \
+"CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj" \
@@ -621,6 +665,7 @@ PTZ__elf_OBJECTS = \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
@@ -628,6 +673,7 @@ PTZ__elf_OBJECTS = \
 # External object files for target PTZ_.elf
 PTZ__elf_EXTERNAL_OBJECTS =
 
+PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/PID.cpp.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/RC.cpp.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/can.c.obj
@@ -638,6 +684,7 @@ PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/iwdg.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/main.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/main.cpp.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.obj
+PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/stm32f4xx_it.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Core/Src/syscalls.c.obj
@@ -662,12 +709,13 @@ PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/build.make
 PTZ_.elf: CMakeFiles/PTZ_.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable PTZ_.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32Cube\my_projects\PTZ_\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable PTZ_.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PTZ_.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/PTZ_/cmake-build-debug/PTZ_.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/PTZ_/cmake-build-debug/PTZ_.bin"

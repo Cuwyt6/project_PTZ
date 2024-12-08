@@ -6,9 +6,9 @@
 #include "RC.h"
 #include "motor.h"
 #include "can.h"
-//#include "IMU.h"
+#include "IMU.h"
 
-// todo
+
 uint16_t yaw_motor_control_stdid = GM6020_StdID_CONTROL_VOLTAGE1;
 uint16_t pitch_motor_control_stdid = GM6020_StdID_CONTROL_VOLTAGE1;
 uint16_t shooter1_control_stdid = M3508_StdID_CONTROL1;
@@ -19,7 +19,7 @@ extern uint8_t tx_data2[8];
 
 uint8_t rx_data[8];
 
-//IMU imu(0.0004);
+IMU imu(0.0004);
 RC rc;
 
 float YawFeedForward(float angle_imu){
@@ -42,7 +42,7 @@ float PitchFeedForward(float angle_imu){
 motor pitch_motor(motor::GM6020, pitch_motor_control_stdid,PITCH_MOTOR_ID,
                   PID(0.0045,0,0,0,GM6020_MAXCURRENT),
                   PID(90,0.1,45
-                      ,50,600),false , 217.36174, &PitchFeedForward);
+                      ,50,600),true , 217.36174, &PitchFeedForward);
 
 //motor shooter_motor1(Motor::M3508, shooter1_control_stdid,SHOOTER1_MOTOR_ID,
 //                     PID(0,0,0,0,0,M3508_MAXCURRENT),
@@ -53,7 +53,7 @@ motor pitch_motor(motor::GM6020, pitch_motor_control_stdid,PITCH_MOTOR_ID,
 //                     PID(0,0,0,0,0,0),0 , 0);
 
 void RCHandle();
-//void IMUHandle();
+void IMUHandle();
 void MotorHandle();
 
 CAN_RxHeaderTypeDef rx_header;
@@ -63,7 +63,7 @@ void ControlLoop(){
     // 将rc的 add_on量加给 target
     RCHandle();
     // IMU 解算 & 赋值给电机
-    //IMUHandle();
+    IMUHandle();
     // can 控制电机
     MotorHandle();
 }
@@ -90,17 +90,17 @@ void RCHandle(){
 //  }
     // 右中/上控制电机 左拨杆上下pitch，左右yaw
 //  else{
-    //todo yaw_motor.RCControl(rc.yaw_gain_ * rc.channel_.l_row);
+    /// yaw_motor.RCControl(rc.yaw_gain_ * rc.channel_.l_row);
     //pitch_motor.RCControl(rc.pitch_gain_ * rc.channel_.l_col);
 //  }
-    // todo 若要用遥控器控制：软件限位
+
 }
 
-//void IMUHandle(){
-//    imu.IMUCalculate();
-//    pitch_motor.SetIMUAngle(imu.IMUPitch());
-//    yaw_motor.SetIMUAngle(imu.IMUYaw());
-//}
+void IMUHandle(){
+    imu.IMUCalculate();
+    pitch_motor.SetIMUAngle(imu.IMUPitch());
+    ///yaw_motor.SetIMUAngle(imu.IMUYaw());
+}
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
     if(htim == &htim6){
@@ -120,7 +120,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
         //uint8_t rx_data[8];
         HAL_CAN_GetRxMessage(&hcan1, CAN_FilterFIFO0, &rx_header, rx_data);
 
-        if (rx_header.StdId == GM6020_StdID_FEEDBACK + YAW_MOTOR_ID); //todo yaw_motor.CanRxMsgCallback(rx_data)
+        if (rx_header.StdId == GM6020_StdID_FEEDBACK + YAW_MOTOR_ID); ///yaw_motor.CanRxMsgCallback(rx_data)
         else if (rx_header.StdId == GM6020_StdID_FEEDBACK + PITCH_MOTOR_ID) pitch_motor.CanRxMsgCallback(rx_data);
 //    else if (rx_header.StdId == shooter1_feedback_stdid) shooter_motor1.CanRxMsgCallback(rx_data);
 //    else if (rx_header.StdId == shooter2_feedback_stdid) shooter_motor2.CanRxMsgCallback(rx_data);

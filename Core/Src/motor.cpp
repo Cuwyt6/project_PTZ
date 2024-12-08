@@ -68,15 +68,16 @@ void motor::CanRxMsgCallback(const uint8_t rx_data[8]){
 
     if (motor_type_ == M3508 || motor_type_ == GM6020) temp_ = (int16_t)rx_data[6];
 
-    CalculatePID();
+    Calc();
 }
 
-void motor::CalculatePID(){
+void motor::Calc(){
     if (!stop_flag_){
         if(is_imu_fdb_){
+            ref_ang_ = 30;
             ref_vel_ = pid_ang_.calc(ref_ang_, angle_imu_);
-            forward_voltage_ = FeedForward(angle_imu_);
-            forward_current_ = FeedForward(angle_imu_);
+           // forward_voltage_ = FeedForward(angle_imu_);
+          //  forward_current_ = FeedForward(angle_imu_);
         }
         else{
             ref_ang_ = 30;

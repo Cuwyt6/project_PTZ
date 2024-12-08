@@ -21,6 +21,7 @@
 #include "can.h"
 #include "dma.h"
 #include "iwdg.h"
+#include "spi.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -96,6 +97,7 @@ int main(void)
   MX_IWDG_Init();
   MX_USART3_UART_Init();
   MX_TIM6_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

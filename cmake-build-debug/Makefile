@@ -128,6 +128,30 @@ PTZ_.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/build
 .PHONY : PTZ_.elf/fast
 
+Core/Src/IMU.obj: Core/Src/IMU.cpp.obj
+.PHONY : Core/Src/IMU.obj
+
+# target to build an object file
+Core/Src/IMU.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.obj
+.PHONY : Core/Src/IMU.cpp.obj
+
+Core/Src/IMU.i: Core/Src/IMU.cpp.i
+.PHONY : Core/Src/IMU.i
+
+# target to preprocess a source file
+Core/Src/IMU.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.i
+.PHONY : Core/Src/IMU.cpp.i
+
+Core/Src/IMU.s: Core/Src/IMU.cpp.s
+.PHONY : Core/Src/IMU.s
+
+# target to generate assembly for a file
+Core/Src/IMU.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/IMU.cpp.s
+.PHONY : Core/Src/IMU.cpp.s
+
 Core/Src/PID.obj: Core/Src/PID.cpp.obj
 .PHONY : Core/Src/PID.obj
 
@@ -367,6 +391,30 @@ Core/Src/motor.s: Core/Src/motor.cpp.s
 Core/Src/motor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/motor.cpp.s
 .PHONY : Core/Src/motor.cpp.s
+
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
 
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
@@ -928,6 +976,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PTZ_.elf.dir\build.make CMakeFiles/PTZ_.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj
 
@@ -1009,6 +1081,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PTZ_.elf
+	@echo ... Core/Src/IMU.obj
+	@echo ... Core/Src/IMU.i
+	@echo ... Core/Src/IMU.s
 	@echo ... Core/Src/PID.obj
 	@echo ... Core/Src/PID.i
 	@echo ... Core/Src/PID.s
@@ -1039,6 +1114,9 @@ help:
 	@echo ... Core/Src/motor.obj
 	@echo ... Core/Src/motor.i
 	@echo ... Core/Src/motor.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
@@ -1109,6 +1187,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s
